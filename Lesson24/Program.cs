@@ -14,6 +14,6 @@ await JSONFileHelper<User>.WriteInJsonAsync(FILE_TYPES.Users, user);
 
 User? user2 = await JSONFileHelper<User>.ReadFromJsonAsync(FILE_TYPES.Users);
 
-//Console.WriteLine(user);
-//Console.WriteLine(user1);
-//Console.WriteLine(user2);
+Console.WriteLine(user);
+Console.WriteLine(user1);
+Console.WriteLine(user2);
